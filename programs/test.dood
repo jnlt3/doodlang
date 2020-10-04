@@ -1,0 +1,22 @@
+{
+    x:0;
+    solve(x) <- 11 * x^7 + 7*x^6 + x^5 - 2*x^4 + 3*x^3 - 4*x^2 + 5*x - 6 = 0;
+}
+{
+    x:0;
+    solve(x) <- x^2 + 2*x - 1 = 5*x + 8;
+}
+{
+    a:0;
+    solve(a) <- log(a, a + 1) = a;
+}
+{
+    x:0;
+    solve(x) <- x^x * log(x) = x * 2;
+}
+{
+    x: 1;
+    y: 1;
+    solve(x) <- x * y + (x - y) = 0;
+    solve(y) <- x * y + (x - y) = 0;
+}
